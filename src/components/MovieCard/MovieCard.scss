@@ -1,0 +1,28 @@
+@import '../../common/colors.scss';
+
+.card__item{
+    cursor: pointer;
+    margin: 5px 10px;
+    background-color: $secondary-color;
+    border-radius: 10px;
+}
+
+.card__top{
+    height: 350px;
+    text-align: center;
+    img{
+        height: 100%;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}
+
+.card__info{
+    color: $font-primary;
+    text-align: center;
+    h4{
+        font-size: 22px;
+        font-weight: 400;
+    }
+}
