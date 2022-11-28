@@ -1,0 +1,50 @@
+@import '../../common/colors.scss';
+
+
+
+.movie__section{
+    color: $font-primary;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 100vh;
+    margin-top: 100px;
+    .left{
+       max-width: 1000px;
+
+        .movie__name{
+            padding: 10px;
+            
+        }
+       .movie__description > div span:first-child{
+        margin-top: 50px;
+        padding-right: 10px;
+        color: $font-primary;
+        font-size: 18px;
+       }
+        .movie__description__title{
+            padding: 10px;
+            line-height: 24px;
+        }
+        .movie__actors{
+            padding: 10px;
+        }
+        .movie__year{
+            padding: 10px;
+        }
+        .movie__awards{
+            padding: 10px;
+        }
+        .movie__description > div span{
+            color: $font-secondary
+        }
+       
+    }
+    .right{
+        .picture{
+            img{
+                height: 500px;
+            }
+        }
+    }
+}
