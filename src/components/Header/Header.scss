@@ -2,8 +2,9 @@
 
 .header{
     background-color: $secondary-color;
-    height: 70px;
+    max-height: 160px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -21,6 +22,38 @@
     .user__image img    {
         width: 60px;
         height: 60px;
+    }
+
+    .search__bar{
+        width: 300px;
+        height: 50%;
+    
+        form{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+            input{
+                height: 25px;
+                width: 200px;
+              }
+        
+              button{
+                height: 28px;
+                border-radius: 5px;
+                width: 70px;
+                border: 1px solid white;
+                background-color: rgba(63, 115, 228, 0.027);
+                color: white
+              }
+
+              button:hover{
+                transition-delay: .1s;
+                background-color: white;
+                color: black;
+              }
+        }
+     
     }
     
 }
